@@ -8,7 +8,7 @@ Some information about you!
 
 ### More Information
 
-[Buy me coffee!](paypal.me/2kk9)
+[Buy me coffee!](https://paypal.me/2kk9)
 
 ### Contact me
 
