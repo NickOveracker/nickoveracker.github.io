@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Buy me coffee at: paypal.me/2kk9
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[n.overacker@gmail.com](mailto:n.overacker@gmail.com)
