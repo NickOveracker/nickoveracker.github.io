@@ -1,18 +1,20 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>(Redirecting to NIXU)</title>
+    <script defer src="./js/nsh.mjs" type="module"></script>
+    <link rel="stylesheet" href="./css/nsh.css">
+</head>
+<body>
+    <p>Your browser should automatically redirect to my actual homepage in <span id="timer">5</span> seconds.</p>
+    <p>If it does not automatically redirect or you lack the virtue of patience, click <a href="https://nickoveracker.com">here</a>.</p>
+    <script>
+        timeLeft = 5;
+        setTimeout(() => { window.open("https://nickoveracker.com", "_self") }, 5000);
+        setInterval(() => { timer.innerText = --timeLeft; }, 1000);
+    </script>
+</body>
+</html>
